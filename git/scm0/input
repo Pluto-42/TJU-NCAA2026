@@ -1,0 +1,6 @@
+添加 NCAA 篮球分析的数据集说明和多个 Jupyter 笔记本
+
+- 新建 `data_explained` 文件，详细描述 NCAA 篮球的数据集结构和历史数据。
+- 添加 `ncaa2025-3th-place-solution.ipynb`，基于 Kaggle 竞赛的解决方案。
+- 引入 `ncaa2026-public-baseline-v2.ipynb`，复现优秀方案并提升可读性。
+- 包含 `vilnius-ncaa.ipynb`，用于 NCAA 锦标赛结果的全面数据探索和分析。
