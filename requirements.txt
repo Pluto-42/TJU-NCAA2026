@@ -9,8 +9,8 @@ pandas>=2.0,<3
 scikit-learn>=1.3,<2
 xgboost>=2.0,<3
 
-# 统计分析
-statsmodels>=0.14,<1
+# 统计分析 (需与 scipy 兼容: scipy 1.16+ 移除 _lazywhere，需 statsmodels>=0.14.2)
+statsmodels>=0.14.2,<1
 
 # 科学计算
 scipy>=1.11,<2

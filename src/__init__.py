@@ -9,7 +9,11 @@ from .optimal_strategy import (  # noqa: F401
     apply_manual_overrides,
 )
 from .raddar_utils import prepare_data, extract_seed_number
-from .goto_utils import load_probability_tables
+from .goto_utils import (
+    load_probability_tables,
+    load_probability_table_from_xlsx,
+    get_pairwise_prob_from_rd_win,
+)
 
 __all__ = [
     "get_roundOfMatch",
@@ -20,4 +24,6 @@ __all__ = [
     "prepare_data",
     "extract_seed_number",
     "load_probability_tables",
+    "load_probability_table_from_xlsx",
+    "get_pairwise_prob_from_rd_win",
 ]
